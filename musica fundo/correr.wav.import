@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/correr.wav-b9f7e58701d4ee4cbedc3d377e196fb5.sample"
+
+[deps]
+
+source_file="res://musica fundo/efeito sonoros/correr.wav"
+dest_files=[ "res://.import/correr.wav-b9f7e58701d4ee4cbedc3d377e196fb5.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

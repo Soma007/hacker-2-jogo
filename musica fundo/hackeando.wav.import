@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/hackeando.wav-2a5724bb84b309a346588c253aa02b79.sample"
+
+[deps]
+
+source_file="res://musica fundo/efeito sonoros/hackeando.wav"
+dest_files=[ "res://.import/hackeando.wav-2a5724bb84b309a346588c253aa02b79.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
