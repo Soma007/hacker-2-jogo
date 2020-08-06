@@ -1,0 +1,33 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Sprites/tia0.png" type="Texture" id=1]
+[ext_resource path="res://Sprites/tia1.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/tia2.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/tia3.png" type="Texture" id=4]
+[ext_resource path="res://Tia.gd" type="Script" id=5]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 1 ), ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "Walk",
+"speed": 10.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 36.0
+height = 82.0
+
+[node name="Tia" type="StaticBody2D"]
+collision_layer = 4
+script = ExtResource( 5 )
+
+[node name="Sprite" type="AnimatedSprite" parent="."]
+position = Vector2( 1.00003, 0 )
+scale = Vector2( 1.39091, 1.27311 )
+frames = SubResource( 1 )
+animation = "Walk"
+frame = 1
+
+[node name="Shape" type="CollisionShape2D" parent="."]
+shape = SubResource( 2 )
